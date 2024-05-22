@@ -23,8 +23,6 @@ To deploy the Okta Verify application to Microsoft Intune, follow these steps:
 3. Click Add and then select Windows app (Win32) as the App type
 4. Click Select and then find your packaged .intunewin file and upload it
 5. Fill out the relevant application information such as the name and details about the application
-![Example application information](image.png)
-7. 
 
 
 ### More Information

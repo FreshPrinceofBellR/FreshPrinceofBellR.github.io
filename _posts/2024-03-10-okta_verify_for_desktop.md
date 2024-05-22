@@ -29,7 +29,6 @@ To deploy the Okta Verify application to Microsoft Intune, follow these steps:
 3. Click Add and then select Windows app (Win32) as the App type
 4. Click Select and then find your packaged .intunewin file and upload it
 5. Fill out the relevant application information such as the name and details about the application
-![alt](https://)
 
 ### Installation
 Okta Verify has an option for users to use Windows Hello or Okta Verify Passcodes as their authentication method for Okta FastPass. There are two different methods of installing the application depending on which option you wish to use.

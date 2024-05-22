@@ -3,7 +3,6 @@ title: "Deploy Okta Verify via Microsoft Intune"
 date: 2024-05-22 13:30:00 +0000
 categories: [Microsoft Intune, Okta, Application]
 tags: [intune, microosft intune, okta]
-author: "Richard Bell"
 ---
 
 # How to Deploy Okta Verify with Microsoft Intune
@@ -17,7 +16,6 @@ You can download the Microsoft Win32 Content Prep Tool from [GitHub.](https://gi
 For a guide on how to run the Win32 Content Prep Tool, follow [this comprehensive guide](https://www.prajwaldesai.com/deploy-win32-apps-with-intune/) from Prajwal Desai.
 
 ## Deployment
-### Application Configurations
 Okta Verify has multiple parameteres that can be set during the installation of the application. [You can find a full list of configurations here.](https://help.okta.com/oie/en-us/content/topics/identity-engine/devices/managed-app-configs-win.htm)
 
 You will require at least the **OrgUrl** to install the application. Examples of installation commands will be detailed in the installation step.

@@ -20,7 +20,7 @@ Okta Verify has multiple parameteres that can be set during the installation of 
 
 You will require at least the **OrgUrl** to install the application. Examples of installation commands will be detailed in the installation step.
 
-### Uplaod the Application
+### Upload the Application
 To deploy the Okta Verify application to Microsoft Intune, follow these steps:
 1. Log into your Microsoft Intune admin portal
 2. Navigate to the Apps section within Microsoft Intune

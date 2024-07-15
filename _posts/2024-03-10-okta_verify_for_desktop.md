@@ -15,7 +15,7 @@ You can download the Microsoft Win32 Content Prep Tool from [GitHub.](https://gi
 
 For a guide on how to run the Win32 Content Prep Tool, follow [this comprehensive guide](https://www.prajwaldesai.com/deploy-win32-apps-with-intune/) from Prajwal Desai.
 
-## Deployment
+## Setup
 Okta Verify has multiple parameteres that can be set during the installation of the application. [You can find a full list of configurations here.](https://help.okta.com/oie/en-us/content/topics/identity-engine/devices/managed-app-configs-win.htm)
 
 You will require at least the **OrgUrl** to install the application. Examples of installation commands will be detailed in the installation step.
@@ -51,3 +51,19 @@ To use Okta Verify Passcode as the authentication method then multiple parameter
 An example of an installation command that deploys Okta Verify with the Okta Verify Passcode option:
 
 *`.\OktaVerify.exe /q OrgUrl=[Your Okta Organization URL] AuthenticatorOperationMode=VirtualDesktopStatic UserVerificationType=OktaVerifyPasscode`*
+
+### Requirements
+The requirements I used for this deployment of Okta Verify were the following:
+- Operating system architecture: x64
+- Minimum operating system: Windows 10 22H2
+
+You can add additional requirements including custom scripts if required.
+
+### Detection
+Okta Verify can be detected by using the **File or folder exist** detection option. Okta's documentation targets the following file path and file
+
+*`C:\Program Files\Okta\Okta Verify`*
+*`OktaVerify.exe`*
+
+### Deployment
+To deploy the Okta Verify application, you can either scope it to a device group (recommended) or user group as either **Required** or **Avaliable for enrolled devices**.

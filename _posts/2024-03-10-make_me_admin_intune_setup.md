@@ -65,13 +65,13 @@ To create this custom OMA-URI configuration profile, follow these steps:
 * Description: Imports the SinclairBase ADMX
 * OMA-URI: ./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/MakeMeAdmin/Policy/SinclairBase
 * Data type: String
-* Value: Refer to this .admx file for the value of the OMA-URI
+* Value: [Refer to this .admx file for the value of the OMA-URI](https://github.com/FreshPrinceofBellR/freshprinceofbellr.github.io/blob/f8063f6a0af13d7993552f29c88f1253e84bb074/assets/files/FreshPrinceofBellR_Sinclair-Base.admx)
 7. Click Add and then provide provide the following information in the Add Row pane
 * Name: MakeMeAdmin ADMX
 * Description: Imports the MakeMeAdmin ADMX
 * OMA-URI: ./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/MakeMeAdmin/Policy/SinclairMakeMeAdminADMX
 * Data type: String
-* Value: Refer to this .admx file for the value of the OMA-URI
+* Value: [Refer to this .admx file for the value of the OMA-URI](https://github.com/FreshPrinceofBellR/freshprinceofbellr.github.io/blob/f8063f6a0af13d7993552f29c88f1253e84bb074/assets/files/FreshPrinceofBellR_Sinclair-MakeMeAdmin.admx)
 8. Click Next and choose your assignments and then save the configuration profile
 
 The above setup ingests the ADMX configurations required to use the rest of the policies avaliable for the MakeMeAdmin application. You can find all of the avaliable settings by reviewing the ADMX file, but the current avaliable settings are as follows:

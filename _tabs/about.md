@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+**This blog is dedicated to various aspects of Microsoft Intune, EntraID, Windows 365 and MSGraph with a keen focus on Microsoft Intune.**
+
+_Feel free to contact me with any questions via my social links in the bottom corner!_
